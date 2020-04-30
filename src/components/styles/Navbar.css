@@ -1,0 +1,42 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  height: 70px;
+  padding: 0.5rem 0.5rem;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+}
+.Navbar a {
+  text-decoration: none;
+  color: #0791e6;
+}
+.Navbar__logo {
+  width: 150px;
+  height: 60px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu {
+  height: inherit;
+}
+
+.menu ol {
+  display: flex;
+  height: inherit;
+}
+.Navbar ol li {
+  height: inherit;
+}
+.Navbar a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}

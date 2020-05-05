@@ -10,7 +10,7 @@ class Navbar extends React.Component {
         <div className="">
           <a href="/">
             <img className="Navbar__logo" src={logo} alt="Logo piedad" />
-            <span className="font-weight-light">Servicio,Precio y Calidad</span>
+            <span className="font-weight-light">Donde tu salud, es primero...</span>
           </a>
         </div>
         <nav className="menu">

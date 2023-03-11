@@ -1,0 +1,23 @@
+@import url("../componentes/menu.css");
+.header {
+  background: rgb(174, 174, 174);
+  /* position: relative;s */
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5em 0;
+  transition: .3s background ;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo{
+  display: inline-flex;
+  width: 150px;
+  height: 40px;
+  background: url('../assets/images/LogotipoSF.png') no-repeat center;
+  background-size: contain;
+}
